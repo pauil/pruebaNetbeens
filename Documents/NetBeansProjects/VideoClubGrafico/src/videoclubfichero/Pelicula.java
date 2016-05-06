@@ -24,7 +24,7 @@ public class Pelicula implements Serializable {
         titulo = "";
         genero = new String();//es lo mismo que codigo = "";
         duracion = 90;
-        visto = true;
+//        visto = true;
     }
     
     public Pelicula(String codigo, String titulo, int duracion, String genero, int valoracion, boolean visto) {
